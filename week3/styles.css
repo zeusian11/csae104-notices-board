@@ -1,0 +1,120 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+/* Header */
+.first-content {
+  background-color: #123c69;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.university-short {
+  font-size: 35px;
+}
+
+.university-name {
+  font-size: 25px;
+}
+
+/* Navigation */
+.navigation {
+  background-color: #1d5a91;
+  padding: 15px;
+}
+
+.paths {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.paths a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Content */
+.main-content {
+  margin: 20px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.middle-section {
+  background-color: white;
+  padding: 20px;
+  flex: 2;
+}
+
+.section-title {
+  color: #123c69;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.paragraph {
+  line-height: 1.5;
+}
+
+.bnhs-image {
+  width: 150px;
+}
+
+/* Form */
+form {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+}
+
+.form-title {
+  color: #123c69;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn {
+  background-color: #123c69;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #123c69;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
